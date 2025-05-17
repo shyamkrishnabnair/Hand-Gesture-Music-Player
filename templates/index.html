@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finger Gesture Recognition</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Finger Gesture Recognition</h1>
+    <div class="controls">
+        <button id="startBtn">Start Recognition</button>
+        <button id="stopBtn" disabled>Stop Recognition</button>
+    </div>
+    <div class="video-container">
+        <img id="videoFeed" src="/video_feed" alt="Video Feed">
+    </div>
+    <div class="gesture-log">
+        <h2>Gesture Log</h2>
+        <ul id="gestureList"></ul>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

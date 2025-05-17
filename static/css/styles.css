@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.video-container {
+    margin: 20px 0;
+}
+
+#videoFeed {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+}
+
+.gesture-log {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.gesture-log ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gesture-log li {
+    padding: 5px 0;
+    font-size: 16px;
+}
